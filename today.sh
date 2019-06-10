@@ -1,5 +1,5 @@
 #!/bin/bash
-time=$(date "+%Y-%m-%d %H:%M:%S")
+time=$(date "+%Y-%m-%d")
 git add -A
 git commit -m "${time}"
 git push
